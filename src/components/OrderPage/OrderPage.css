@@ -1,0 +1,170 @@
+.page{
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    width: 100vw;
+}
+
+.catergory_slide{
+box-sizing: border-box;
+background-color: rgb(255, 255, 255);
+height: 90vh;
+width: 15vw;
+float: left;
+margin-right: 1%;
+margin-top: 3vh;
+}
+.menu_slide{
+box-sizing: border-box;
+background-color: rgb(255, 255, 255);
+height: 90vh;
+width: 60vw;
+float: left;
+margin-top: 3vh;
+
+
+}
+.your_order_slide{
+box-sizing: border-box;
+background-color: rgb(255, 255, 255);
+height: 90vh;
+width: 22vw;
+margin-left: 1%;
+float: left;
+overflow-y: auto;
+padding: 10px;
+margin-top: 3vh;
+}
+.catergory_card{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #c7c7c7;
+    cursor: pointer;
+}
+.catergory_card.active{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.catergory_card:hover{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.drink_card{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#drinkname{
+    font-size: 20px;
+    font-weight: bold;
+ 
+      
+}
+
+#description{
+    font-size: 1em;
+    color: grey;
+  
+}
+.order_card #quantity{
+    font-size: 1.2em;
+    color: rgb(255, 95, 108);
+    width: 60vw;
+    font-weight: bold;
+    
+  
+}
+#tea-price{
+    position: absolute;
+    bottom: 2rem;
+    font-size: 18px;
+}
+
+#add_btn {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 20rem;
+}
+
+#add_btn button{
+    position: relative;
+    width: 2rem;
+    right: -88%;
+    padding: 3px;
+}
+
+#add_btn button:hover{
+    background-color: rgb(255, 165, 165);
+}
+button{
+    width:  auto;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(255, 95, 108);
+    margin: 12px;
+}
+
+.order_card{
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    width: auto;
+}
+.sub_card{
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 15px;
+    position: absolute;
+    width: 20vw;
+    bottom: 6%;
+    padding: 10px;
+}
+#checkout_btn{
+    position: absolute;
+    bottom: 0%;
+    width: 15%;
+
+}
+.address_bar{
+    padding: 12px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    background-color: white;
+}
+.address_bar span{
+    font-weight: bold;
+}
+#rate{
+    float:right;
+    margin-right: 4.2rem;
+    margin-top:1rem;
+}
+
+.drink-info-container {
+    padding: 1rem;
+}
+
+.my-orders-page {
+    margin:5rem 6rem;
+}
+
+.delivery-address {
+    color: rgb(255, 95, 108);
+}
+
+#product-price {
+    position: absolute;
+    right: 2rem;
+}

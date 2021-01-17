@@ -1,0 +1,55 @@
+.category {
+    border: 1px solid #c7c7c7;
+    padding: 1.5rem 1rem;
+    background: white;
+    list-style: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #EB5757;
+}
+
+.category-handle {
+    color: #c7c7c7;
+    cursor: pointer;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.category-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.category-product {
+    margin-left: 5rem;
+}
+
+li {
+    list-style: none;
+}
+
+#product-count {
+    color: black;
+    margin-right: 4rem;
+}
+
+.fa-chevron-down{
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+    font-size: 20px;
+    line-height:25px;
+    color:  #c7c7c7 !important;
+}
+
+.expand-icon {
+    margin-right: 2rem
+}
+
+.table-btn {
+    border: none;
+    position: absolute;
+    background: none;
+    top: 6rem;
+    color: rgb(255, 95, 108);
+    font-size: 18px;
+}

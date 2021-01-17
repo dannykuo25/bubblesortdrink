@@ -1,0 +1,15 @@
+.sideBar {
+    position: absolute;
+    background-color: rgb(218, 218, 218);
+    height: 95vh;
+    width: 20%;
+  
+  }
+  .googleMap {
+    position: absolute;
+    background-color: rgb(218, 218, 218);
+    height: 95vh;
+    width: 80%;
+    right: 0;
+  }
+  

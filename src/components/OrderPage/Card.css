@@ -1,0 +1,35 @@
+.card{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px  ;
+    margin-left: 20px  ;
+    padding-left: 10px;
+    display: inline-block;
+    position: relative;}
+
+#storename{
+    font-size: 20px;
+    font-weight: bold;
+}
+#storeids{
+    font-weight: bold;
+    font-size: 16px;
+}
+#address{
+    font-size: 12px;
+    color: rgb(189, 189, 189);
+    margin-top: 3px;
+}
+
+.button1{
+    width:  auto;
+    background-color: rgb(255, 95, 108);
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    right: 3%;
+    margin: 10px;
+}

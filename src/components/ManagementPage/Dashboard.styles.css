@@ -1,0 +1,109 @@
+/* .pro-sidebar > .pro-sidebar-inner {
+    background: #E9CDCD !important;
+    color: #9b9b9b;
+}
+
+.pro-sidebar {
+    background: #E9CDCD;
+    font-family: 'Oxanium', cursive;
+} */
+
+
+.dashboard-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-sidebar {
+    background: #E9CDCD;
+    color: #9b9b9b;   
+    height: 100vh;
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 5rem;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-sidebar .nav-link:hover {
+    color: #EB5757;
+}
+
+.nav-link.active {
+    color: #EB5757;
+    font-weight: bold;
+}
+
+#dashboard-brand {
+    margin: 1rem 0 0 1rem;
+}
+
+.owner-nav{
+    display:flex;
+    width: 100%;
+    height: 64px;
+    float: right;
+    background: #F9EDED !important;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.owner-nav-item {
+    padding: 0rem 2rem;
+}
+
+.owner-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 0.6rem;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+.owner-nav-link.active {
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid #EB5757;
+}
+
+.owner-nav-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.owner-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 13rem;
+}
+
+.page-name {
+    margin-bottom: 1rem;
+}
+
+.products-buttons-container {
+    font-size: 18px;
+    color: #EB5757;
+}
+
+.item-category {
+    color: white;
+    background: #E9CDCD;
+    padding: 0.5rem 1.5rem;
+}

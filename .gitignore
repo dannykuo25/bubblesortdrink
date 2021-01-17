@@ -1,0 +1,7 @@
+env/
+*.pyc
+node_modules/
+.vscode/
+API_KEY.js
+# Secret config parameters
+*.ini

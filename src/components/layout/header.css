@@ -1,0 +1,45 @@
+#user-nav {
+    background: #EB5757;
+    height: 64px;
+}
+
+#user-nav > .container {
+    margin: 5px 60px;
+    max-width: 100%;
+} 
+
+.navbar-text {
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+    line-height: 64px;
+    opacity: .7;
+}
+
+.nav-item {
+    display: flex;
+    text-align: center;
+}
+
+.nav-item > .nav-link{
+    font-size: 18px;
+    color: white;
+    background: none;
+    border: none;
+    height: 64px;
+    line-height: 64px;
+}
+
+.nav-item > .nav-link:hover{
+    border-bottom: 3px solid white;
+}
+
+.nav-brand {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.nav-brand:hover {
+    opacity: .8;
+}

@@ -1,0 +1,70 @@
+
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.login-form {
+    height:100%;
+    width: 600px;
+    margin-left: 60px;
+    padding-top: 60px;
+    padding-right: 150px;
+}
+
+.banner-image {
+    width: 70%;
+    background-image: url('../Assets/bubble-tea2.jpg');
+    background-size: cover;
+}
+
+.page-name {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+/* signup/signin redirect */
+.redirect-hint {
+    color: #EB5757;
+}
+
+.redirect-link {
+    color: #EB5757;
+    text-decoration: underline;
+}
+
+.redirect-link:hover {
+    color: #EB5757;
+    font-weight: bold;
+}
+
+
+/* form */
+label {
+    margin-bottom: .3rem;
+}
+
+.form-control {
+    border:1px solid black;
+    border-radius: 0;
+    background-color: #fff !important;
+}
+
+.long-btn {
+    width: 100%;
+    font-family: Oxanium;
+    border-radius: 50px;
+}
+
+.long-btn:hover {
+    opacity:.6;
+}
+
+form {
+    margin-top: 25px;
+}

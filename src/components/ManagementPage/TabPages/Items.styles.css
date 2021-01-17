@@ -1,0 +1,20 @@
+.item-page {
+    padding: 3rem;
+    margin-top: 64px;
+}
+
+.item-card {
+    border: 1px solid grey;
+}
+
+.item-info {
+    margin: 0 30px;
+}
+
+.product-table { 
+    width: 100%;
+}
+
+.preview-page {
+    margin-top: 64px;
+}

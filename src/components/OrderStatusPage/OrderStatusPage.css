@@ -1,0 +1,104 @@
+.page2{
+    background-color: rgb(255, 255, 255);
+}
+
+#icon_img{
+    height: 4em;
+    position: absolute;
+    top:-10px;
+}
+.google_map{
+    height: 60vh;
+    width: 70vw;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.info{
+position: relative;
+height: 60vh;
+}
+.sidebar{
+    height: 95vh;
+    width: 30vw;
+    position: absolute;
+    top: 0%;
+}
+.sub_card2{
+    width: 90%;
+    margin-left: 2em;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 15px;
+    position: absolute;
+    bottom: 45%;
+    padding: 10px;
+}
+.est_card{
+    margin-top: 3em;
+    width: 90%;
+    margin-left: 2em;
+    position: relative;
+}
+#progress_bar{
+    margin-top: 10px;
+    width: 25vw;
+}
+#est_time{
+    position: absolute;
+    left: 18vw;
+    top: 1vh;
+    color: rgb(167, 167, 167);
+}
+h2{
+    font-weight: bold;
+    font-size: 3em;
+}
+#status_text{
+    margin-top: 10px;
+}
+
+.order_details #drinkname{
+    float:left;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.order_details #price{
+    text-align:right;
+    position:absolute;
+    right: 0;
+    padding-right: 10px;
+
+}
+.order_details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subtotal_card{
+    margin-top: 30px;
+}
+#customercomment{
+    border:1px solid #e2e2e2;
+    width:100%;
+    margin:5px 0;
+    padding:3px;
+  
+}
+#contained-modal-title-vcenter{
+    font-size: 2.5em;
+}
+.order_details #quantity{
+    font-size: 1.2rem;
+    color: rgb(255, 95, 108);
+    width: 60vw;
+    font-weight: bold;
+    text-align: right;
+    flex:1; 
+}
+.sub_card2 h4{
+    position: absolute;
+    top:-5vh;
+    font-weight: bold;
+}
